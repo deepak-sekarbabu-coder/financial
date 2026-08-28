@@ -14,6 +14,7 @@ const services = [
   "Child Education",
   "Retirement Planning",
   "Tax Planning",
+  "Income Tax Filing",
 ];
 
 export default function Footer() {

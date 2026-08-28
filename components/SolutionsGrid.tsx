@@ -5,6 +5,7 @@ import {
   GraduationCap,
   Landmark,
   Receipt,
+  FileCheck,
 } from "lucide-react";
 import RevealOnScroll from "@/components/RevealOnScroll";
 
@@ -56,6 +57,14 @@ const solutions = [
       "Save more with smart tax planning strategies.",
     color: "text-leaf",
     bg: "bg-leaf/10",
+  },
+  {
+    icon: FileCheck,
+    title: "Income Tax Filing",
+    description:
+      "Accurate, hassle-free income tax return filing.",
+    color: "text-royal",
+    bg: "bg-royal/10",
   },
 ];
 
