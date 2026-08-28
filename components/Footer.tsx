@@ -62,18 +62,6 @@ export default function Footer() {
               We are committed to helping you achieve financial security and
               long-term prosperity.
             </p>
-            <div className="mt-4 flex gap-3">
-              {["Facebook", "LinkedIn", "WhatsApp", "YouTube"].map((name) => (
-                <a
-                  key={name}
-                  href="#"
-                  aria-label={name}
-                  className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-xs font-bold text-white transition-colors hover:bg-white/20"
-                >
-                  {name[0]}
-                </a>
-              ))}
-            </div>
           </div>
 
           {/* Quick Links */}
