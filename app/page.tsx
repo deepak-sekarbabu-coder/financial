@@ -3,6 +3,8 @@ import Hero from "@/components/Hero";
 import ValueStrip from "@/components/ValueStrip";
 import SolutionsGrid from "@/components/SolutionsGrid";
 import AboutUs from "@/components/AboutUs";
+import Products from "@/components/Products";
+import LifeInvestment from "@/components/LifeInvestment";
 import ConsultationBanner from "@/components/ConsultationBanner";
 import Footer from "@/components/Footer";
 import RevealOnScroll from "@/components/RevealOnScroll";
@@ -18,6 +20,12 @@ export default function Home() {
           <AboutUs />
         </RevealOnScroll>
         <SolutionsGrid />
+        <RevealOnScroll>
+          <Products />
+        </RevealOnScroll>
+        <RevealOnScroll>
+          <LifeInvestment />
+        </RevealOnScroll>
         <RevealOnScroll>
           <ConsultationBanner />
         </RevealOnScroll>

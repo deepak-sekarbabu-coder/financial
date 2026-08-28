@@ -4,6 +4,7 @@ const quickLinks = [
   { label: "Home", href: "#home" },
   { label: "About Us", href: "#about" },
   { label: "Services", href: "#services" },
+  { label: "Products", href: "#products" },
   { label: "Contact Us", href: "#contact" },
 ];
 
@@ -111,7 +112,11 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <Phone size={16} className="mt-0.5 shrink-0 text-leaf" aria-hidden="true" />
-                <span className="text-sm text-gray-400">+91 94450 05707</span>
+                <span className="text-sm text-gray-400">+91 9445729901</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <Phone size={16} className="mt-0.5 shrink-0 text-leaf" aria-hidden="true" />
+                <span className="text-sm text-gray-400">+91 9445005707</span>
               </li>
               <li className="flex items-start gap-3">
                 <Mail size={16} className="mt-0.5 shrink-0 text-leaf" aria-hidden="true" />
