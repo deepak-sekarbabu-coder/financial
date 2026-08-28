@@ -77,13 +77,6 @@ export default function Header() {
           ))}
         </nav>
 
-        {/* Desktop CTA */}
-        <a
-          href="#consultation"
-          className="hidden rounded-lg bg-navy px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-navy-light lg:inline-block"
-        >
-          Book a Consultation
-        </a>
 
         {/* Mobile Toggle */}
         <button
@@ -115,13 +108,6 @@ export default function Header() {
               {link.label}
             </a>
           ))}
-          <a
-            href="#consultation"
-            onClick={closeMobile}
-            className="mt-2 block rounded-lg bg-navy px-5 py-2.5 text-center text-sm font-semibold text-white transition-colors hover:bg-navy-light"
-          >
-            Book a Consultation
-          </a>
         </nav>
       )}
     </header>

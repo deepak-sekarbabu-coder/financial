@@ -25,6 +25,12 @@ export default function Hero() {
               >
                 Our Services
               </a>
+              <a
+                href="#contact"
+                className="rounded-lg border border-navy bg-transparent px-6 py-3 text-sm font-semibold text-navy transition-colors hover:bg-navy hover:text-white"
+              >
+                Get in Touch
+              </a>
             </div>
           </div>
 

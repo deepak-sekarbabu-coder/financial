@@ -16,7 +16,7 @@ export default function ConsultationBanner() {
               Let&apos;s build your financial plan today!
             </h2>
             <p className="mt-1 text-sm text-gray-300">
-              Reach out for a free consultation with our expert advisors.
+              Reach out for a free consultation and let&apos;s work together on your goals.
             </p>
           </div>
         </div>
