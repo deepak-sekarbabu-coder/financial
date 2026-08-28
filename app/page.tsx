@@ -5,7 +5,7 @@ import SolutionsGrid from "@/components/SolutionsGrid";
 import AboutUs from "@/components/AboutUs";
 import Products from "@/components/Products";
 import LifeInvestment from "@/components/LifeInvestment";
-import ConsultationBanner from "@/components/ConsultationBanner";
+import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import RevealOnScroll from "@/components/RevealOnScroll";
 
@@ -27,7 +27,7 @@ export default function Home() {
           <LifeInvestment />
         </RevealOnScroll>
         <RevealOnScroll>
-          <ConsultationBanner />
+          <Contact />
         </RevealOnScroll>
       </main>
       <RevealOnScroll>

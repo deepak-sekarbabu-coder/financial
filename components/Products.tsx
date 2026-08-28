@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ShieldCheck, Sparkles } from "lucide-react";
+import HighlightCard from "./HighlightCard";
 
 const highlights = [
   {
@@ -49,27 +50,16 @@ export default function Products() {
               planning for your family&apos;s well-being, I&apos;m here to help
               you find the right fit.
             </p>
-            {highlights.map((item) => {
-              const Icon = item.icon;
-              return (
-                <div
-                  key={item.title}
-                  className="flex items-start gap-4 rounded-xl border border-soft-border bg-white p-4 shadow-sm sm:p-5"
-                >
-                  <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-leaf/10">
-                    <Icon size={24} className="text-leaf" aria-hidden="true" />
-                  </div>
-                  <div>
-                    <h3 className="mb-1 text-base font-bold text-navy">
-                      {item.title}
-                    </h3>
-                    <p className="text-sm leading-relaxed text-gray-600">
-                      {item.description}
-                    </p>
-                  </div>
-                </div>
-              );
-            })}
+            {highlights.map((item) => (
+              <HighlightCard
+                key={item.title}
+                icon={item.icon}
+                iconBg="bg-leaf/10"
+                iconColor="text-leaf"
+                title={item.title}
+                description={item.description}
+              />
+            ))}
           </div>
         </div>
       </div>

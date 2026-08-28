@@ -1,5 +1,28 @@
 import Image from "next/image";
 
+const heroStats = [
+  { value: "30+", label: "Years of Experience" },
+  { value: "3", label: "Postgraduate Degrees" },
+  { value: "100%", label: "Trusted Guidance" },
+];
+
+function HeroStats() {
+  return (
+    <dl className="mt-10 grid max-w-lg grid-cols-3 gap-4 border-t border-soft-border pt-6">
+      {heroStats.map((stat) => (
+        <div key={stat.label}>
+          <dd className="text-2xl font-extrabold text-navy sm:text-3xl">
+            {stat.value}
+          </dd>
+          <dt className="mt-1 text-xs font-medium uppercase tracking-wide text-gray-500">
+            {stat.label}
+          </dt>
+        </div>
+      ))}
+    </dl>
+  );
+}
+
 export default function Hero() {
   return (
     <section id="home" className="relative bg-sky-bg">
@@ -32,6 +55,8 @@ export default function Hero() {
                 Get in Touch
               </a>
             </div>
+
+            <HeroStats />
           </div>
 
           {/* Hero Image */}
@@ -43,6 +68,7 @@ export default function Hero() {
                 fill
                 sizes="(min-width: 768px) 50vw, 100vw"
                 className="object-cover"
+                priority
               />
             </div>
           </div>
