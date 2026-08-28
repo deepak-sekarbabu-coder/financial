@@ -18,7 +18,7 @@ const highlights = [
 
 export default function Products() {
   return (
-    <section id="products" className="bg-sky-bg py-16 sm:py-20">
+    <section id="products" className="bg-sky-bg py-12 sm:py-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <p className="mb-2 text-center text-xs font-semibold uppercase tracking-widest text-leaf">
           Our Range
