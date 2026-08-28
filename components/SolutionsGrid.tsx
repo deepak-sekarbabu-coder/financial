@@ -87,15 +87,17 @@ export default function SolutionsGrid() {
               <article
                 className="group rounded-xl border border-soft-border bg-white p-5 transition-shadow hover:shadow-lg sm:p-6"
               >
-                <div
-                  className={`mb-4 flex h-14 w-14 items-center justify-center rounded-full ${item.bg}`}
-                >
-                  <Icon size={28} className={item.color} aria-hidden="true" />
+                <div className="mb-3 flex items-center gap-3">
+                  <div
+                    className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-full ${item.bg}`}
+                  >
+                    <Icon size={20} className={item.color} aria-hidden="true" />
+                  </div>
+                  <h3 className="text-base font-bold text-navy">
+                    {item.title}
+                  </h3>
                 </div>
-                <h3 className="mb-2 text-lg font-bold text-navy">
-                  {item.title}
-                </h3>
-                <p className="mb-4 text-sm leading-relaxed text-gray-600">
+                <p className="text-sm text-gray-600">
                   {item.description}
                 </p>
 
